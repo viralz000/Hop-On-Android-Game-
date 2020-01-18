@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgoflevel">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/quezon"
+        android:id="@+id/quezoncity"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/level9"
+        android:id="@+id/level9"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@id/level9"
+        android:id="@+id/level10"
+        android:background="@drawable/level10"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="75dp"
+        android:layout_below="@+id/level9"
+        android:background="@drawable/level11"
+        android:id="@+id/level11"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_toRightOf="@id/level11"
+        android:layout_below="@id/level10"
+        android:background="@drawable/level12"
+        android:id="@+id/level12"/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="225dp"
+        android:background="@drawable/nextbutton"
+        android:id="@+id/nextbutton3"/>
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/threeof4"
+        android:id="@+id/threeof4"/>
+
+</RelativeLayout>

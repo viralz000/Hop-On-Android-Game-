@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgoflevel">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/caloocan"
+        android:id="@+id/caloocancity"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/level5"
+        android:id="@+id/level5"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@id/level5"
+        android:id="@+id/level6"
+        android:background="@drawable/level6"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="75dp"
+        android:layout_below="@+id/level5"
+        android:background="@drawable/level7"
+        android:id="@+id/level7"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_toRightOf="@id/level7"
+        android:layout_below="@id/level6"
+        android:background="@drawable/level8"
+        android:id="@+id/level8"/>
+
+    <ImageButton
+        android:id="@+id/nextbutton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/nextbutton" />
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/twoof4"
+        android:id="@+id/twoof4"/>
+
+</RelativeLayout>

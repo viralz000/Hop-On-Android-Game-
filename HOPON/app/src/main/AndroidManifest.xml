@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.hopon">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.noActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Levels"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Stage1"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Stage2"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Stage3"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Stage4"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+        android:name=".Level1"
+        android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level2"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level3"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level4"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level5"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level6"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level7"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level8"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level9"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level10"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level11"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level12"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level13"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level14"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level15"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level16"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <service android:name=".BackgroundSound_Service"
+                 android:enabled="true"></service>
+    </application>
+
+</manifest>
