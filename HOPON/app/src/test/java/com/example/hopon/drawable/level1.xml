@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
-</ConstraintLayout>
+version https://git-lfs.github.com/spec/v1
+oid sha256:84fb83736bcfd00a88ce7702af1c3d86f4e852413e7d871cad9f7c4295670fbd
+size 312
