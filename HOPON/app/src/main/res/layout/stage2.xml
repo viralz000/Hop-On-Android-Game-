@@ -3,54 +3,64 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgoflevel">
+    android:background="@drawable/newbackground">
 
     <ImageView
-        android:layout_width="500dp"
-        android:layout_height="500dp"
+        android:id="@+id/caloocancity"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="140dp"
-        android:background="@drawable/caloocan"
-        android:id="@+id/caloocancity"/>
+        android:background="@drawable/caloocan" />
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/level5"
         android:id="@+id/level5"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="300dp"
-        android:layout_toRightOf="@id/level5"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"
         android:id="@+id/level6"
         android:background="@drawable/level6"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="75dp"
-        android:layout_below="@+id/level5"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/level7"
         android:id="@+id/level7"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_toRightOf="@id/level7"
-        android:layout_below="@id/level6"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
         android:background="@drawable/level8"
         android:id="@+id/level8"/>
 
     <ImageButton
-        android:id="@+id/nextbutton"
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_marginLeft="225dp"
-        android:layout_marginTop="480dp"
+        android:id="@+id/nextbutton2"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="450dp"
         android:background="@drawable/nextbutton" />
+
+    <ImageButton
+        android:id="@+id/previousbutton2"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/previousbutton" />
 
     <ImageButton
         android:layout_width="175dp"
@@ -59,5 +69,6 @@
         android:layout_marginLeft="120dp"
         android:background="@drawable/twoof4"
         android:id="@+id/twoof4"/>
+
 
 </RelativeLayout>

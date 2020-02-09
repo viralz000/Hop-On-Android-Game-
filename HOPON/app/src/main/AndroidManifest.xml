@@ -41,6 +41,102 @@
         android:name=".Level1"
         android:theme="@style/AppTheme.noActionBar"/>
         <activity
+            android:name=".Level1success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level1failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level2success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level2failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level3success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level3failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level4success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level4failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level5success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level5failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level6success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level6failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level7success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level7failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level8success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level8failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level9success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level9failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level10success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level10failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level11success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level11failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level12success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level12failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level13success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level13failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level14success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level14failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level15success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level15failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level16success"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
+            android:name=".Level16failed"
+            android:theme="@style/AppTheme.noActionBar"/>
+        <activity
             android:name=".Level2"
             android:theme="@style/AppTheme.noActionBar"/>
         <activity
@@ -66,9 +162,6 @@
             android:theme="@style/AppTheme.noActionBar"/>
         <activity
             android:name=".Level10"
-            android:theme="@style/AppTheme.noActionBar"/>
-        <activity
-            android:name=".Level11"
             android:theme="@style/AppTheme.noActionBar"/>
         <activity
             android:name=".Level12"

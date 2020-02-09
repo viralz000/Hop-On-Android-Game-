@@ -3,54 +3,64 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgoflevel">
+    android:background="@drawable/newbackground">
 
     <ImageView
-        android:layout_width="500dp"
-        android:layout_height="500dp"
+        android:id="@+id/quezoncity"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="140dp"
-        android:background="@drawable/quezon"
-        android:id="@+id/quezoncity"/>
+        android:background="@drawable/quezon" />
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/level9"
         android:id="@+id/level9"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="300dp"
-        android:layout_toRightOf="@id/level9"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"
         android:id="@+id/level10"
         android:background="@drawable/level10"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="75dp"
-        android:layout_below="@+id/level9"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/level11"
         android:id="@+id/level11"/>
 
     <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="105dp"
-        android:layout_toRightOf="@id/level11"
-        android:layout_below="@id/level10"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
         android:background="@drawable/level12"
         android:id="@+id/level12"/>
 
     <ImageButton
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginLeft="225dp"
-        android:background="@drawable/nextbutton"
-        android:id="@+id/nextbutton3"/>
+        android:id="@+id/nextbutton3"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/nextbutton" />
+
+    <ImageButton
+        android:id="@+id/previousbutton3"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/previousbutton" />
 
     <ImageButton
         android:layout_width="175dp"

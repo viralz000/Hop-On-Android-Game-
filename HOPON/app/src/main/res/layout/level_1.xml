@@ -16,6 +16,7 @@
         app:layout_constraintTop_toBottomOf="@+id/map_20_5"
         app:srcCompat="@android:color/holo_blue_bright" />
 
+
     <ImageView
         android:id="@+id/map_21_6"
         android:layout_width="31.69dp"
@@ -2402,6 +2403,105 @@
         app:layout_constraintTop_toBottomOf="@+id/map_1_7"
         app:srcCompat="@android:color/holo_blue_bright" />
 
+    <ImageView
+        android:id="@+id/bluemotor"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="@+id/map_14_4"
+        app:layout_constraintTop_toBottomOf="@+id/map_13_4"
+        app:srcCompat="@drawable/bluetopsingleup" />
+
+    <Button
+        android:id="@+id/actionleft"
+        android:layout_width="106dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/buttonleft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_11_4" />
+
+    <Button
+        android:id="@+id/actionright"
+        android:layout_width="106dp"
+        android:layout_height="109dp"
+        android:background="@drawable/buttonright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map_18_10" />
+
+    <Button
+        android:id="@+id/actiondown"
+        android:layout_width="106dp"
+        android:layout_height="109dp"
+        android:background="@drawable/buttondown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map_18_10" />
+
+    <Button
+        android:id="@+id/actionup"
+        android:layout_width="106dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/buttonup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_13_7" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:background="@drawable/retrybutton"
+        app:layout_constraintBottom_toBottomOf="@+id/map_23_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map_22_2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="294dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/map_8_7"
+        app:layout_constraintEnd_toEndOf="@+id/map_4_13"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/map_4_1"
+        app:srcCompat="@drawable/level1instruction" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="177dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:text="LEVEL 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#147C6C"
+        android:textColorHighlight="#B90A46"
+        android:textColorLink="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/map_22_4"
+        app:layout_constraintTop_toBottomOf="@+id/map_21_8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/backk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/map_1_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

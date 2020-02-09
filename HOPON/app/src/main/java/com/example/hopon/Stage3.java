@@ -12,12 +12,21 @@ public class Stage3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
         setContentView(R.layout.stage3);
 
         findViewById(R.id.nextbutton3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Stage3.this, Stage4.class));
+            }
+        });
+
+        findViewById(R.id.previousbutton3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Stage3.this, Stage2.class));
             }
         });
 
