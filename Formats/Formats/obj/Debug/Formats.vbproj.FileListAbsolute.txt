@@ -1,0 +1,14 @@
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.vbprojAssemblyReference.cache
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.Form1.resources
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.Resources.resources
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.vbproj.GenerateResource.cache
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Formats.exe.config
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Formats.exe
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Formats.pdb
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Formats.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.vbproj.CopyComplete
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.exe
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Debug\Formats.pdb

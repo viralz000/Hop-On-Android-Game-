@@ -1,0 +1,13 @@
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Formats.exe.config
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Formats.exe
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Formats.pdb
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Formats.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Newtonsoft.Json.dll
+C:\Users\ROBERTO\source\repos\Formats\Formats\bin\Release\Newtonsoft.Json.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.Form1.resources
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.Resources.resources
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.vbproj.GenerateResource.cache
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.vbproj.CopyComplete
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.exe
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.xml
+C:\Users\ROBERTO\source\repos\Formats\Formats\obj\Release\Formats.pdb
